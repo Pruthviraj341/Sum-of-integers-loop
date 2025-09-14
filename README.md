@@ -22,27 +22,3 @@ if num % 2 == 0:
     print(f"{num} is Even")
 else:
     print(f"{num} is Odd")
-# Sum of Integers from 1 to 50
-
-## 📌 Problem Statement
-This program calculates the sum of all integers from **1 to 50** using a `for` loop in Python.
-
-## 📝 Description
-- The program initializes a variable `total_sum` with `0`.
-- It then iterates over the numbers from `1` to `50` (inclusive) using a `for` loop.
-- In each iteration, the current number is added to `total_sum`.
-- After the loop finishes, the final sum is displayed.
-
-## 💻 Code Example
-```python
-# Program to calculate the sum of integers from 1 to 50
-
-total_sum = 0
-
-# Using a for loop from 1 to 50
-for num in range(1, 51):
-    total_sum += num
-
-# Display the result
-print("The sum of integers from 1 to 50 is:", total_sum)
-
